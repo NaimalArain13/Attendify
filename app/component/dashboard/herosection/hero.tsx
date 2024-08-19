@@ -1,4 +1,6 @@
 import React from "react";
+import Link from "next/link";
+
 
 export default function HeroSection() {
   return (
@@ -65,10 +67,11 @@ export default function HeroSection() {
           <input type="checkbox" className="text-blue-600 focus:ring-0" />
           <label className="ml-2 text-gray-700">Remember me</label>
         </div>
-
+        <Link href={'/dashboard'}>
         <button className=" bg-blue-600 text-white py-2 px-3 rounded-md hover:bg-blue-700 transition">
-          Sign in
+         Sign in
         </button>
+        </Link>
 
         <p className="mt-4 text-sm text-gray-500">
           <a href="#" className="hover:underline">
@@ -76,7 +79,7 @@ export default function HeroSection() {
           </a>
         </p>
         <p className="mt-6 text-sm text-gray-800">
-          Don't have an account?{" "}
+          Do not have an account?{" "}
           <a href="#" className="text-cyan-500 hover:underline">
             Register here
           </a>
