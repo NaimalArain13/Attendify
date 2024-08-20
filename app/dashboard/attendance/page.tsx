@@ -1,6 +1,8 @@
 const Attendence = () => {
   return (
     <>
+    <h1 className="text-blue-900 text-3xl px-16 pt-8">Attendance</h1>
+    <div>
     <div className="bg-white py-8 px-4 md:px-8 rounded-lg mt-14 md:mx-8 my-6">
       <form action="">
         <div className="flex flex-col md:flex-row md:items-center">
@@ -89,8 +91,8 @@ const Attendence = () => {
         </button>
       </div>
 
+      </div>
       </>
-
   );
 };
 

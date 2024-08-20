@@ -4,7 +4,8 @@ import MyRadarChart from "./components/myRedar";
 const Report = () => {
   return (
     <>
-      <section className="py-8 px-4 md:px-8 rounded-lg mt-14 mx-4 md:mx-6 my-6 border">
+      <section className="px-4 md:px-8 rounded-lg mt-14 mx-4 md:mx-6 my-4 ">
+      <h1 className="text-blue-900 text-3xl px-8 py-4">Dashboard</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 grid-rows-4 lg:grid-rows-3 gap-2">
           {/* div 1 */}
           <div className="h-40 bg-white shadow-lg rounded-lg border p-3">
