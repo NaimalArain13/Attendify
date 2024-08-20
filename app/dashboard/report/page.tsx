@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function Dahboard() {
+function Report() {
   return (
     <div>
-      <h2>Dashboard</h2>
+      <h1>Report</h1>
     </div>
   )
 }
+
+export default Report
